@@ -6,6 +6,9 @@ on:
     pull_request:
         branches: [ main ]
 
+permissions:
+  contents: read
+
 # Hey fellow developer, yes this library is FOSS.
 # Feel free to pinch this build script
 
